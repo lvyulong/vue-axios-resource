@@ -1,6 +1,6 @@
 {
   "name": "vue-axios-resource",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue项目对于后端接口的处理方案",
   "main": "index.js",
   "directories": {
