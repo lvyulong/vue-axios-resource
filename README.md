@@ -122,10 +122,4 @@ export default authApi;
 
 ### 解释一下baseUrl
 
-```javascript
-http://xxxx.xx.com/api/auth/login
-```
-如上接口地址，可以分解为域名（http://xxxx.xx.com）和路径（/api/auth/login）。
-auth对应的是后端的控制器，<br>
-login对应auth控制器下的action，<br>
-那么/api/就是baseUrl
+![解释一下baseUrl](https://github.com/lvyulong/vue-axios-resource/raw/master/image/api.jpg)
