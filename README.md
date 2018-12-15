@@ -2,7 +2,7 @@
 
 ### 一、Introdution
 
-vue项目目前官方推荐使用axios来处理后端接口。写入如下：
+vue项目目前官方推荐使用axios来处理后端接口。写法如下：
 ```javascript
 axios.get('/api/demo')
   .then(function (response) {
@@ -121,7 +121,11 @@ export default authApi;
 ```
 
 ### 解释一下baseUrl
-接口“http://xxxx.xx.com/api/auth/login”,可以分解为域名（http://xxxx.xx.com）和路径（/api/auth/login）。
+
+```javascript
+http://xxxx.xx.com/api/auth/login
+```
+如上接口地址，可以分解为域名（http://xxxx.xx.com）和路径（/api/auth/login）。
 auth对应的是后端的控制器，<br>
 login对应auth控制器下的action，<br>
 那么/api/就是baseUrl
